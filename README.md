@@ -1,18 +1,17 @@
-# 🚦 Indian Road Accident Analysis
+# 🚗 Indian Road Accident Analysis (2022–2025)
 
-An end-to-end Data Analytics project built using **Python, PostgreSQL (SQL), and Power BI** to analyze Indian road accident data and identify accident trends, severity, weather impact, road conditions, and casualty patterns.
+An end-to-end Data Analytics project built using **Python, PostgreSQL (SQL), and Power BI** to analyze Indian road accident data and identify trends in accident severity, casualties, weather conditions, road types, and risk factors.
 
 ---
 
-## 📌 Project Workflow
+## 📌 Project Overview
 
-Raw Dataset
-↓
-Python Data Cleaning
-↓
-SQL Analysis (PostgreSQL)
-↓
-Power BI Dashboard
+This project follows the complete data analytics workflow:
+
+- Data Cleaning using Python
+- SQL Analysis using PostgreSQL
+- Interactive Dashboard in Power BI
+- Business Insights from accident data
 
 ---
 
@@ -20,50 +19,101 @@ Power BI Dashboard
 
 - Python
 - Pandas
+- NumPy
 - PostgreSQL
-- SQL
-- Power BI
 - DBeaver
+- Power BI
+- Git & GitHub
 
 ---
 
 ## 📂 Repository Structure
 
-- Dashboard → Power BI dashboard (.pbix)
-- Python → Data cleaning notebook
-- SQL → SQL queries
-- Dataset → Cleaned dataset
-- Images → Dashboard screenshots
+```
+Dashboard/
+│── Indian_Road_Accident_Insights.pbix
+
+Dataset/
+│── cleaned_indian_roads_dataset.csv
+
+Python/
+│── road accident.ipynb
+
+sql/
+│── road_accident_analysis.sql
+
+Images/
+│── Overview_dashboard.jpeg
+│── Time_and_risk_dashboard.jpeg
+│── Road_and_environment.jpeg
+```
 
 ---
 
 ## 📊 Dashboard Pages
 
-### 1. Overview
+### 1️⃣ Overview Dashboard
+
 - Total Accidents
 - Total Casualties
-- Monthly Trend
-- Severity Distribution
-- State-wise Accident Map
+- Average Casualties per Accident
+- Monthly Accident Trend
+- Accident Severity Distribution
+- Accident Cause Breakdown
+- State-wise Road Accidents
 
-### 2. Time & Risk Analysis
-- Hourly Accident Trend
-- Peak Hour Analysis
-- Weekend Accidents
-- Risk Score by Time Period
-
-### 3. Road & Environment Analysis
-- Weather-wise Severity
-- Road Type Analysis
-- Casualty Impact by Cause
+![Overview Dashboard](https://raw.githubusercontent.com/rishita-b04/indian-road-accident-analysis/refs/heads/main/Images/Overview_dashboard.jpeg)
 
 ---
 
-## 💡 Key Insights
+### 2️⃣ Time and Risk Analysis
 
-- Minor accidents contribute the largest share.
-- Urban roads recorded the highest number of accidents.
-- Rainy weather is associated with a high number of accidents.
-- Evening and night periods show higher accident risk.
-- Overspeeding and poor road conditions are major contributing factors.
+- Weekend Accidents
+- Average Vehicles Involved
+- Peak Hour Accidents
+- Hourly Accident Trend
+- Accidents by Time Period & Severity
+- Risk Score Across Time Period
 
+![Time and Risk Dashboard](https://raw.githubusercontent.com/rishita-b04/indian-road-accident-analysis/refs/heads/main/Images/Time_and_risk_dashboard.jpeg)
+
+---
+
+### 3️⃣ Road and Environment Analysis
+
+- Urban Road Accidents
+- Rainy Weather Accidents
+- Highway Accidents
+- Severity Distribution by Weather
+- Casualty Impact by Accident Cause
+- Accidents by Road Type & Severity
+
+![Road and Environment Dashboard](https://raw.githubusercontent.com/rishita-b04/indian-road-accident-analysis/refs/heads/main/Images/Road_and_environment.jpeg)
+
+---
+
+## 🔍 Key Insights
+
+- Minor accidents account for the largest share of total accidents.
+- Accident severity changes across different weather conditions.
+- Peak traffic hours contribute significantly to accident occurrences.
+- Road type and environmental conditions influence accident severity.
+- Casualty levels vary depending on accident causes and road types.
+
+---
+
+## 📁 Project Files
+
+- ✔️ Python Data Cleaning Notebook
+- ✔️ SQL Analysis Queries
+- ✔️ Cleaned Dataset
+- ✔️ Power BI Dashboard (.pbix)
+- ✔️ Dashboard Screenshots
+
+---
+
+## 👩‍💻 Author
+
+**Rishita Bagri**
+
+GitHub: https://github.com/rishita-b04
